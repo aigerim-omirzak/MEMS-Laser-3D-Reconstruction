@@ -140,8 +140,6 @@ The software supports multiple scanning trajectories:
 - Raster Scan
 - Triangular Lissajous
 - Sinusoidal Lissajous
-- Sinusoidal Frame Capture
-- Vertical Raster Scan
 
 Each trajectory is converted into MEMS control commands using the ILUT calibration table to compensate for mirror nonlinearities.
 
