@@ -16,34 +16,12 @@ A software framework for laser-based **3D reconstruction** using a **MEMS scanni
 # Reconstruction Pipeline
 
 The complete 3D reconstruction workflow consists of the following stages:
-
-```text
-Raster Scan Calibration
-        │
-        ▼
-Pixel-to-Angle Mapping
-        │
-        ▼
-Laser Plane Calibration
-        │
-        ▼
-Object Scan (Lissajous / Raster)
-        │
-        ▼
-Laser Pixel Detection
-        │
-        ▼
-Pixel-to-Angle Mapping
-        │
-        ▼
-3D Triangulation
-        │
-        ▼
-Point Cloud (.ply)
-        │
-        ▼
-Visualization
-```
+1. **Raster Scan Calibration**
+2. **Laser Plane Calibration**
+3. **Object Scanning**
+5. **Pixel-to-Angle Mapping**
+5. **3D Triangulation**
+6. **Point Cloud Visualization**
 
 ## 1. Raster Scan Calibration
 
